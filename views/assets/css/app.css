@@ -1,0 +1,6 @@
+@media (max-width: 991px) {
+    .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
+        margin-left: 0;
+        display: block;
+    }
+}

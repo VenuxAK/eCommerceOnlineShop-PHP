@@ -1,11 +1,10 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-</head>
-<body>
-    <h1>Admin Dashboard View</h1>
-</body>
-</html>
+<?php include "views/admin/partials/Header.php" ?>
+    <?php include "views/admin/components/Navbar.php" ?>
+    <?php include "views/admin/components/Sidebar.php" ?>
+
+
+    <?php include "views/admin/components/main/MainPanel.php" ?>
+    
+
+    <?php include "views/admin/components/PageFooter.php" ?>
+<?php include "views/admin/partials/Footer.php" ?>
